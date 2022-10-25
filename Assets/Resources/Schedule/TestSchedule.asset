@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40ad49c07e884d5ab6d1f43e5f4a3b8f, type: 3}
+  m_Name: TestSchedule
+  m_EditorClassIdentifier: 
+  DailySchedule:
+  - Intervaled: 0
+    Interval:
+      Hour: 0
+      Minute: 0
+    StartTime:
+      Hour: 0
+      Minute: 5
+    EndTime:
+      Hour: 10
+      Minute: 0
+    ActionCategory: 0
+    NpcLocationActionType: 0
+    NpcPlayerActionType: 0
+    Location: 5
+    Locations: 01000000
+  - Intervaled: 0
+    Interval:
+      Hour: 0
+      Minute: 0
+    StartTime:
+      Hour: 10
+      Minute: 0
+    EndTime:
+      Hour: 0
+      Minute: 0
+    ActionCategory: 0
+    NpcLocationActionType: 2
+    NpcPlayerActionType: 0
+    Location: 8
+    Locations: 
+  - Intervaled: 0
+    Interval:
+      Hour: 0
+      Minute: 0
+    StartTime:
+      Hour: 20
+      Minute: 0
+    EndTime:
+      Hour: 0
+      Minute: 0
+    ActionCategory: 0
+    NpcLocationActionType: 1
+    NpcPlayerActionType: 0
+    Location: 4
+    Locations: 

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7237cac909bc43eeaaf7f69efbc3e89c, type: 3}
+  m_Name: Player
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 0}
+  Name: Valentine
+  HealthMax: 100
+  MovementSpeed: 900
+  DodgeDistance: 10
+  DodgeLimit: 10
+  DodgeDuration: 0.021
+  DodgeImmuneDuration: 0.3
+  DamageStunDuration: 0.2
+  DodgeCount: 3
+  DodgeCooldownDuration: 2
+  FireAnimReleaseDur: 0.3
+  WalkSoundPeriod: 0.5
+  SpeedDecreaseOnAim: 0.2
+  DamageSound: {fileID: 11400000, guid: 841c49a708450634ba3411e5d4b8c0c7, type: 2}
+  DeathSound: {fileID: 11400000, guid: 3e5df3b2c86019e4f9d379bf8a442ed2, type: 2}
+  DodgeSound: {fileID: 11400000, guid: e7a5c517e7f9dd94da0ff4de383237a0, type: 2}
+  FireSound: {fileID: 0}
+  WalkSound: {fileID: 11400000, guid: cbd309864d870b04f8b4b51bd28f178b, type: 2}

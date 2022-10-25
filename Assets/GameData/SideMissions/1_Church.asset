@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49d460da5bd94e05ae58addc45ee302e, type: 3}
+  m_Name: 1_Church
+  m_EditorClassIdentifier: 
+  Sequence:
+  - Type: 1
+    WaveData:
+      WaveId: 0
+      Type: 0
+      WaveDuration: 0
+      EnemySpawnInterval: 0
+      WaveEnemies: []
+  - Type: 0
+    WaveData:
+      WaveId: 0
+      Type: 1
+      WaveDuration: 60
+      EnemySpawnInterval: 0.25
+      WaveEnemies:
+      - Enemy: {fileID: 791055931953595458, guid: edf2a840b8d60564387e39371db4b9b6,
+          type: 3}
+        Count: 4
+  - Type: 0
+    WaveData:
+      WaveId: 1
+      Type: 0
+      WaveDuration: 120
+      EnemySpawnInterval: 0
+      WaveEnemies:
+      - Enemy: {fileID: 791055931953595458, guid: edf2a840b8d60564387e39371db4b9b6,
+          type: 3}
+        Count: 9
+      - Enemy: {fileID: 4985755080462385426, guid: a2ef26202ae05bd48a99a8b28d4f9588,
+          type: 3}
+        Count: 3
+  - Type: 0
+    WaveData:
+      WaveId: 2
+      Type: 1
+      WaveDuration: 60
+      EnemySpawnInterval: 0.2
+      WaveEnemies:
+      - Enemy: {fileID: 4985755080462385426, guid: a2ef26202ae05bd48a99a8b28d4f9588,
+          type: 3}
+        Count: 5
+      - Enemy: {fileID: 6881775726822594706, guid: 84ba1d986de90524291fc92a947d95a6,
+          type: 3}
+        Count: 2
+  - Type: 0
+    WaveData:
+      WaveId: 3
+      Type: 0
+      WaveDuration: 120
+      EnemySpawnInterval: 0
+      WaveEnemies:
+      - Enemy: {fileID: 791055931953595458, guid: edf2a840b8d60564387e39371db4b9b6,
+          type: 3}
+        Count: 11
+      - Enemy: {fileID: 4985755080462385426, guid: a2ef26202ae05bd48a99a8b28d4f9588,
+          type: 3}
+        Count: 7
+      - Enemy: {fileID: 6881775726822594706, guid: 84ba1d986de90524291fc92a947d95a6,
+          type: 3}
+        Count: 3
+  - Type: 0
+    WaveData:
+      WaveId: 4
+      Type: 1
+      WaveDuration: 60
+      EnemySpawnInterval: 0.1
+      WaveEnemies:
+      - Enemy: {fileID: 6881775726822594706, guid: 84ba1d986de90524291fc92a947d95a6,
+          type: 3}
+        Count: 7
+  - Type: 0
+    WaveData:
+      WaveId: 5
+      Type: 1
+      WaveDuration: 60
+      EnemySpawnInterval: 0.1
+      WaveEnemies:
+      - Enemy: {fileID: 1104913668063672100, guid: a604f2f2669926d458a06226eeb00171,
+          type: 3}
+        Count: 1
+  - Type: 0
+    WaveData:
+      WaveId: 6
+      Type: 0
+      WaveDuration: 120
+      EnemySpawnInterval: 0
+      WaveEnemies:
+      - Enemy: {fileID: 791055931953595458, guid: edf2a840b8d60564387e39371db4b9b6,
+          type: 3}
+        Count: 15
+      - Enemy: {fileID: 4985755080462385426, guid: a2ef26202ae05bd48a99a8b28d4f9588,
+          type: 3}
+        Count: 5
+      - Enemy: {fileID: 6881775726822594706, guid: 84ba1d986de90524291fc92a947d95a6,
+          type: 3}
+        Count: 5
+  Waves:
+  - WaveId: 0
+    Type: 1
+    WaveDuration: 60
+    EnemySpawnInterval: 0.25
+    WaveEnemies:
+    - Enemy: {fileID: 791055931953595458, guid: edf2a840b8d60564387e39371db4b9b6,
+        type: 3}
+      Count: 4
+  - WaveId: 1
+    Type: 0
+    WaveDuration: 120
+    EnemySpawnInterval: 0
+    WaveEnemies:
+    - Enemy: {fileID: 791055931953595458, guid: edf2a840b8d60564387e39371db4b9b6,
+        type: 3}
+      Count: 9
+    - Enemy: {fileID: 4985755080462385426, guid: a2ef26202ae05bd48a99a8b28d4f9588,
+        type: 3}
+      Count: 3
+  - WaveId: 2
+    Type: 1
+    WaveDuration: 60
+    EnemySpawnInterval: 0.2
+    WaveEnemies:
+    - Enemy: {fileID: 4985755080462385426, guid: a2ef26202ae05bd48a99a8b28d4f9588,
+        type: 3}
+      Count: 5
+    - Enemy: {fileID: 6881775726822594706, guid: 84ba1d986de90524291fc92a947d95a6,
+        type: 3}
+      Count: 2
+  - WaveId: 3
+    Type: 0
+    WaveDuration: 120
+    EnemySpawnInterval: 0
+    WaveEnemies:
+    - Enemy: {fileID: 791055931953595458, guid: edf2a840b8d60564387e39371db4b9b6,
+        type: 3}
+      Count: 11
+    - Enemy: {fileID: 4985755080462385426, guid: a2ef26202ae05bd48a99a8b28d4f9588,
+        type: 3}
+      Count: 7
+    - Enemy: {fileID: 6881775726822594706, guid: 84ba1d986de90524291fc92a947d95a6,
+        type: 3}
+      Count: 3
+  - WaveId: 4
+    Type: 1
+    WaveDuration: 60
+    EnemySpawnInterval: 0.1
+    WaveEnemies:
+    - Enemy: {fileID: 6881775726822594706, guid: 84ba1d986de90524291fc92a947d95a6,
+        type: 3}
+      Count: 7
+  - WaveId: 5
+    Type: 1
+    WaveDuration: 60
+    EnemySpawnInterval: 0.1
+    WaveEnemies:
+    - Enemy: {fileID: 1104913668063672100, guid: a604f2f2669926d458a06226eeb00171,
+        type: 3}
+      Count: 1
+  - WaveId: 6
+    Type: 0
+    WaveDuration: 120
+    EnemySpawnInterval: 0
+    WaveEnemies:
+    - Enemy: {fileID: 791055931953595458, guid: edf2a840b8d60564387e39371db4b9b6,
+        type: 3}
+      Count: 15
+    - Enemy: {fileID: 4985755080462385426, guid: a2ef26202ae05bd48a99a8b28d4f9588,
+        type: 3}
+      Count: 5
+    - Enemy: {fileID: 6881775726822594706, guid: 84ba1d986de90524291fc92a947d95a6,
+        type: 3}
+      Count: 5

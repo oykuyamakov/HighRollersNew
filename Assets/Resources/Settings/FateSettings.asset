@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 269794ffa9bd4c1abac3acb3dd8dd100, type: 3}
+  m_Name: FateSettings
+  m_EditorClassIdentifier: 
+  Testing: 1
+  DamageEnergyFillAmount: 10
+  AttackEnergyFillAmount: 10
+  IncrementalFillingAmount: 100
+  IncrementalFillingInterval: 1
+  MaxEnergy: 100
+  StatNameShort:
+  - VIT
+  - SPD
+  - DMG
+  StatColorRefs:
+  - {r: 0.4901961, g: 0.17254902, b: 0.17254902, a: 1}
+  - {r: 0.63529414, g: 0.43921572, b: 0.10196079, a: 1}
+  - {r: 0.23529413, g: 0.54901963, b: 0.5686275, a: 1}
+  DiceSprites:
+  - {fileID: 659329981, guid: 319a6e148faee1d41a4aeb00207b57be, type: 3}
+  - {fileID: -604369045, guid: 319a6e148faee1d41a4aeb00207b57be, type: 3}
+  - {fileID: 31954399, guid: 319a6e148faee1d41a4aeb00207b57be, type: 3}
+  - {fileID: -925046035, guid: 319a6e148faee1d41a4aeb00207b57be, type: 3}
+  - {fileID: 1439782322, guid: 319a6e148faee1d41a4aeb00207b57be, type: 3}
+  - {fileID: -1068278407, guid: 319a6e148faee1d41a4aeb00207b57be, type: 3}
+  RarityColorRefs:
+  - {r: 0.3584906, g: 0.3584906, b: 0.3584906, a: 1}
+  - {r: 0.026962224, g: 0.7647059, b: 0, a: 1}
+  - {r: 0, g: 0.18548645, b: 0.7647059, a: 1}
+  - {r: 0.7647059, g: 0, b: 0.05066858, a: 1}
+  - {r: 0.764151, g: 0.37722868, b: 0, a: 1}

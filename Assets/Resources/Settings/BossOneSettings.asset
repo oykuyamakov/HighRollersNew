@@ -1,0 +1,247 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ef6c3a40a17da3498d0306441bfcdd3, type: 3}
+  m_Name: BossOneSettings
+  m_EditorClassIdentifier: 
+  DiceFaces:
+  - {fileID: 2800000, guid: 1e3488057ebe8f44cbccb98f35f12864, type: 3}
+  - {fileID: 2800000, guid: 8e0e9143fd28d5847aa564f48d3da28e, type: 3}
+  - {fileID: 2800000, guid: a96c880b3d5fe8a4aa3da9b0b3a20b18, type: 3}
+  - {fileID: 2800000, guid: 78007116b30b1784d8fb441b1bb1d32a, type: 3}
+  - {fileID: 2800000, guid: 6b7d0af5d33bbc6428351ad0f16ebad7, type: 3}
+  - {fileID: 2800000, guid: 95a2058293f66a3409bb3d56c4c80bae, type: 3}
+  BossHealthLimitForStage2: 999
+  PhaseOneValues:
+    PhaseOneAttack: 0
+    TimeBetweenSpreadProjectile: 0.1
+    ThrowBundleInfo:
+    - SpreadAngle: 15
+      CountAtOnce: 1
+      ThrowCount: 10
+      TimeBetweenThrow: 0.15
+      Execute: 0
+      _AimMode: 2
+      CircularThrow: 0
+      ProjectileInfo:
+        MovementType: 2
+        Health: 1
+        Scale: 2.5
+        Damage: 5
+        Speed: 30
+        Range: 8
+        Height: 3
+        JumpPower: 4
+        JumpCount: 2
+        Acceleration: 12
+        Recursive: 0
+        WaitTime: 2
+    - SpreadAngle: 15
+      CountAtOnce: 10
+      ThrowCount: 10
+      TimeBetweenThrow: 0.5
+      Execute: 1
+      _AimMode: 0
+      CircularThrow: 0
+      ProjectileInfo:
+        MovementType: 2
+        Health: 1
+        Scale: 2.5
+        Damage: 5
+        Speed: 40
+        Range: 8
+        Height: 3
+        JumpPower: 4
+        JumpCount: 2
+        Acceleration: 12
+        Recursive: 0
+        WaitTime: 2
+    - SpreadAngle: 20
+      CountAtOnce: 12
+      ThrowCount: 10
+      TimeBetweenThrow: 0.45
+      Execute: 0
+      _AimMode: 1
+      CircularThrow: 0
+      ProjectileInfo:
+        MovementType: 2
+        Health: 0
+        Scale: 2
+        Damage: 5
+        Speed: 20
+        Range: 8
+        Height: 3
+        JumpPower: 4
+        JumpCount: 2
+        Acceleration: 12
+        Recursive: 0
+        WaitTime: 2
+    - SpreadAngle: 12
+      CountAtOnce: 15
+      ThrowCount: 15
+      TimeBetweenThrow: 0.13
+      Execute: 1
+      _AimMode: 1
+      CircularThrow: 0
+      ProjectileInfo:
+        MovementType: 2
+        Health: 0
+        Scale: 2
+        Damage: 5
+        Speed: 50
+        Range: 8
+        Height: 3
+        JumpPower: 4
+        JumpCount: 2
+        Acceleration: 12
+        Recursive: 0
+        WaitTime: 2
+    Mayhem: 0
+    HitIndicatorDur: 0.8
+    HitRate: 1.2
+    HitDur: 0.2
+    HitIndicatorColor: {r: 0, g: 0.8113208, b: 0.6690002, a: 1}
+    MissileMovement:
+      MovementType: 3
+      Health: 20
+      Scale: 2
+      Damage: 10
+      Speed: 10
+      Range: 1
+      Height: 0
+      JumpPower: 4
+      JumpCount: 2
+      Acceleration: 120
+      Recursive: 0
+      WaitTime: 0
+    MissileRepeatValues:
+      Cooldown: 20
+      ArbitraryCount: 5
+      Rate: 1.2
+      InitialDelay: 20
+  PhaseTwoValues:
+    AttackRate: 2.5
+    WaitBetween6Dice: 35
+    DeactiveDiceColor: {r: 0.16981131, g: 0.016820932, b: 0.016820932, a: 0}
+    Dice2JumpSound: {fileID: 11400000, guid: fab3dea74cdce1e4191c4e5c7add4aac, type: 2}
+    ScanAreaScale: 8
+    JumpDuration: 0.5
+    JumpCooldown: 1.5
+    FollowSpeed: 5
+    BeamTrackSpeed: 0.2
+    BeamInitialDelay: 1.2
+    BeamFireDuration: 3
+    BeamCoolDownDuration: 2
+    Dice5AttackValues:
+      Cooldown: 1
+      ArbitraryCount: 5
+      Rate: 0.8
+      InitialDelay: 1.5
+    Dice5BulletSpeed: 40
+    DiceBehaviours:
+    - Icon: {fileID: 2800000, guid: 1e3488057ebe8f44cbccb98f35f12864, type: 3}
+      Color: {r: 1, g: 0.85098046, b: 0, a: 1}
+      DiceInfo:
+        MovementType: 3
+        Health: 60
+        Scale: 1
+        Damage: 5
+        Speed: 15
+        Range: 0
+        Height: 0
+        JumpPower: 4
+        JumpCount: 2
+        Acceleration: 20
+        Recursive: 0
+        WaitTime: 0
+    - Icon: {fileID: 2800000, guid: 8e0e9143fd28d5847aa564f48d3da28e, type: 3}
+      Color: {r: 0, g: 1, b: 0.8215718, a: 1}
+      DiceInfo:
+        MovementType: 3
+        Health: 60
+        Scale: 1
+        Damage: 5
+        Speed: 15
+        Range: 1
+        Height: 0
+        JumpPower: 3
+        JumpCount: 2
+        Acceleration: 5
+        Recursive: 0
+        WaitTime: 0
+    - Icon: {fileID: 2800000, guid: a96c880b3d5fe8a4aa3da9b0b3a20b18, type: 3}
+      Color: {r: 0.08611488, g: 1, b: 0, a: 1}
+      DiceInfo:
+        MovementType: 2
+        Health: 100
+        Scale: 1
+        Damage: 5
+        Speed: 70
+        Range: 1
+        Height: 3
+        JumpPower: 4
+        JumpCount: 2
+        Acceleration: 12
+        Recursive: 1
+        WaitTime: 1.5
+    - Icon: {fileID: 2800000, guid: 78007116b30b1784d8fb441b1bb1d32a, type: 3}
+      Color: {r: 0, g: 0.07107735, b: 1, a: 1}
+      DiceInfo:
+        MovementType: 2
+        Health: 120
+        Scale: 1
+        Damage: 0.1
+        Speed: 0
+        Range: 10
+        Height: 3
+        JumpPower: 4
+        JumpCount: 2
+        Acceleration: 12
+        Recursive: 1
+        WaitTime: 2
+    - Icon: {fileID: 2800000, guid: 6b7d0af5d33bbc6428351ad0f16ebad7, type: 3}
+      Color: {r: 1, g: 0, b: 0.945982, a: 1}
+      DiceInfo:
+        MovementType: 2
+        Health: 120
+        Scale: 1
+        Damage: 5
+        Speed: 0.5
+        Range: 10
+        Height: 3
+        JumpPower: 4
+        JumpCount: 2
+        Acceleration: 12
+        Recursive: 1
+        WaitTime: 2
+    - Icon: {fileID: 2800000, guid: 95a2058293f66a3409bb3d56c4c80bae, type: 3}
+      Color: {r: 1, g: 0, b: 0.018810749, a: 1}
+      DiceInfo:
+        MovementType: 3
+        Health: 0
+        Scale: 1
+        Damage: 1
+        Speed: 12
+        Range: 10
+        Height: 3
+        JumpPower: 4
+        JumpCount: 2
+        Acceleration: 12
+        Recursive: 0
+        WaitTime: 3
+  PhaseThreeValues:
+    AttackRate: 1
+  MissileFireSound: {fileID: 11400000, guid: 5462850a403334c4a8962695ec607f0c, type: 2}
+  BossHitGorundSound: {fileID: 11400000, guid: 3e6b7b3d4155e51419bcc4ebb63e75d0, type: 2}
+  BossGetDamageSound: {fileID: 11400000, guid: db680684bdd32674d8dc339a7fb9b15d, type: 2}
+  PhaseChangeSound: {fileID: 11400000, guid: 52121d6557793704493c57f51ba82266, type: 2}
+  BossThrowRockSound: {fileID: 11400000, guid: 76a965a2368e85e4cb281f62164e22b6, type: 2}
+  BossThrowDiceSound: {fileID: 11400000, guid: fd893de1ce2ab864c96ddbed0f908e5f, type: 2}

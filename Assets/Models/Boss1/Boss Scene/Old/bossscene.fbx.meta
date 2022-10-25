@@ -1,0 +1,341 @@
+fileFormatVersion: 2
+guid: 902f92acee91fcf49bc7ffd510bb4f49
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: agiz
+    second: {fileID: 2100000, guid: 4dc74f08dc9b59b47834e29ea23b433e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: alt
+    second: {fileID: 2100000, guid: 3200e240c0da56c4aa25ffc238b7b4e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: altkasa
+    second: {fileID: 2100000, guid: 71bc62936fb97e746b74647cf11415a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: anaplatform
+    second: {fileID: 2100000, guid: 8607f43dab618ac4a8a953707a752b68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bar
+    second: {fileID: 2100000, guid: 10ed0b6909e1ebe418ed3a1aca704dd8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: beam
+    second: {fileID: 2100000, guid: ae53b938a8527934481704fd8f101f84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: boru
+    second: {fileID: 2100000, guid: 3ddcc9d13096bfb47a98e0b79ecfe641, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: boru1
+    second: {fileID: 2100000, guid: c0df244a7fc1b2c4481418aaadb3124c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: boru2
+    second: {fileID: 2100000, guid: 6f2b7e4d1fd45d949ab26c3ff068a402, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: boru3
+    second: {fileID: 2100000, guid: 97049cf230a1ed745b963f499af714bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: boru4
+    second: {fileID: 2100000, guid: fdc5cc5df3a2ab5488d33efdbc44d6b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: boru5
+    second: {fileID: 2100000, guid: a3b79509e53c4e546b243fcf231356e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: boru6
+    second: {fileID: 2100000, guid: 3355e6a9874d0844c8616f93d9f259f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: boruluk
+    second: {fileID: 2100000, guid: 1b78373bc6018bd4c8cf9a3af56fbfd5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: boruluk_borusu
+    second: {fileID: 2100000, guid: 7edeaa6e04a90ba4289a7ee6574e9d29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bronzboru
+    second: {fileID: 2100000, guid: 999331060c2baec41a6b07de6636d31d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bumper
+    second: {fileID: 2100000, guid: 30bf60e22193f8649a1c4e67084aef3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buyukegzos
+    second: {fileID: 2100000, guid: 3785382b20134254e9bce6cbfb8ca6ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buyukkablo
+    second: {fileID: 2100000, guid: 7ec00b693c52dc24f936f24150bb6ca7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: coil
+    second: {fileID: 2100000, guid: 27b0c1459f05cf749aa2de5ba81bd1c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: detay1
+    second: {fileID: 2100000, guid: 439f9c2076d61644ab9025ed5a88e259, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: egzos
+    second: {fileID: 2100000, guid: f2d31ee4c62ce6c4f93e7993df2421af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass
+    second: {fileID: 2100000, guid: 8346f8941940b8f4484fd90bf097aa4c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hit
+    second: {fileID: 2100000, guid: 91b235b0be491f244968d47c713f11b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hitbg
+    second: {fileID: 2100000, guid: 0d5151213d781e847a7b17ef53b0c596, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ic
+    second: {fileID: 2100000, guid: 707179aa16891cd4e9003365d1610482, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kablogiris
+    second: {fileID: 2100000, guid: ff957fce5d51ff844875b9a6ece25914, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: koseler
+    second: {fileID: 2100000, guid: 45b3604bb0a64dc43884b74ec303d756, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: c501b9bd8311eb24fa7dd6f6ea8b7ccb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mesh
+    second: {fileID: 2100000, guid: e0adde0bae25b57478cffdd778b8af23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: motor1
+    second: {fileID: 2100000, guid: 66dcccf90e3d06e4ca57cc54e278b7dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: motor2
+    second: {fileID: 2100000, guid: 6a48bcc1c6fde6f4da7913bc229bccf7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: platform
+    second: {fileID: 2100000, guid: e80095fd3f6dc6f4893d185dbdd7e276, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: platformkablo
+    second: {fileID: 2100000, guid: a80353c9991dd0d4ba77be76ea4011c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "roketrampas\u0131"
+    second: {fileID: 2100000, guid: 45f25496ada133346a12f9d73758ee58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tahtami
+    second: {fileID: 2100000, guid: d40527d8ec782d645aa4403aa954533e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tavan
+    second: {fileID: 2100000, guid: 9afe44d94bb49c94baf1e04cbbba2906, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: top1
+    second: {fileID: 2100000, guid: 7b1cdef27dd6e894f91d57fbedf5f3a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: top2
+    second: {fileID: 2100000, guid: d0de1b5b158b6f8418f1955bf39cd741, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: topkup
+    second: {fileID: 2100000, guid: f40611d39b835bf4082c09110431e7ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tutucu
+    second: {fileID: 2100000, guid: 92eb9d97cd48e224aa6b6bb3b29911c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vault1
+    second: {fileID: 2100000, guid: aa0c07190b8bc284e9ab3b98c8c272c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vault_kapak
+    second: {fileID: 2100000, guid: 380b101bbd339584c8648dcdd0768520, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vaultyan
+    second: {fileID: 2100000, guid: 3927a323fc2aa874d9447b4f3bff3d7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yanlar
+    second: {fileID: 2100000, guid: a96dba76c1ea4df46bc7cdd92166ebc7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yuzey
+    second: {fileID: 2100000, guid: fd00d689ce742a34a97a00b144b4eca4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yuzuk
+    second: {fileID: 2100000, guid: 31381326218134b49b02d28e149e35a7, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

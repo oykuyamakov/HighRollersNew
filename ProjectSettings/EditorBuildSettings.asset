@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main/Initializer/Intro.unity
+    guid: 5772863ad38ddbc4da3ce8340cefc61b
+  - enabled: 1
+    path: Assets/Scenes/Main/Shared/Shared.unity
+    guid: 649acb73357da3e47856678fb5859ca1
+  - enabled: 1
+    path: Assets/Scenes/Main/Boss/Boss1/BossOne.unity
+    guid: 102f530fcb625ad498f0147bcd2ea46d
+  - enabled: 1
+    path: Assets/Scenes/Main/Comic/Comic.unity
+    guid: e87d56a1fe2dc844bb9e6bb264dc296f
+  - enabled: 1
+    path: Assets/Scenes/Main/Menu/Menu.unity
+    guid: cd9fd365141b4f141bd9c781a5027721
+  - enabled: 1
+    path: Assets/Scenes/Main/LoadingScreen/Loading.unity
+    guid: fefe894e9e390334ba9375fd91515d83
+  - enabled: 1
+    path: Assets/Scenes/Main/Hub/Hub.unity
+    guid: ed4cc2a1641efda439da1cff6f4197b1
+  m_configObjects: {}

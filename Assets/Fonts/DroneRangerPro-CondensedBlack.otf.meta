@@ -1,0 +1,30 @@
+fileFormatVersion: 2
+guid: c65e64d5317ed7648888b40bf38ff427
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Drone Ranger Pro
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: a31625f2f526b2847b42d3fbce566bc1, type: 3}
+  - {fileID: 12800000, guid: c66cad63b0df72b44b869e45aba14e5b, type: 3}
+  - {fileID: 12800000, guid: c199d01b71585a546bc1466e6787379a, type: 3}
+  - {fileID: 12800000, guid: 8fb3858e58b27124ea4f6148309c0347, type: 3}
+  - {fileID: 12800000, guid: 804f8727bec0b814696417185bc3f32f, type: 3}
+  - {fileID: 12800000, guid: 10c1cf255b21c454da97b94324e38f8f, type: 3}
+  - {fileID: 12800000, guid: 00df42326fcfb664095beb118667b795, type: 3}
+  - {fileID: 12800000, guid: b898c04cbb9fcaa44b3a0f9439a78bbd, type: 3}
+  - {fileID: 12800000, guid: e38ab28053a0ff54daec8bb45bab1f57, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
